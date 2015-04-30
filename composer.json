@@ -1,0 +1,28 @@
+{
+  "name": "coreorm/cache",
+  "description": "Fast and Easy to Use Cache Utility",
+  "keywords": ["framework", "CoreCRM", "Cache"],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Bruce B Li",
+      "email": "coreorm@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4.0",
+    "coreorm/framework": "*"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "~4.0"
+  },
+  "autoload": {
+    "files": [
+      "src/Cache.php"
+    ],
+    "psr-4": {
+      "CoreORM\\Cache\\": "src"
+    }
+  },
+  "minimum-stability": "dev"
+}
