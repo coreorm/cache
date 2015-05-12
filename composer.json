@@ -11,14 +11,13 @@
   ],
   "require": {
     "php": ">=5.4.0",
-    "coreorm/framework": "*"
   },
   "require-dev": {
     "phpunit/phpunit": "~4.0"
   },
   "autoload": {
     "files": [
-      "src/Cache.php"
+      "src/Manager.php"
     ],
     "psr-4": {
       "CoreORM\\Cache\\": "src"
